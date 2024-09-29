@@ -1,0 +1,11 @@
+#Uncomment this line to define a global platform for your project
+platform :ios, '15.0'
+
+target 'TestVideo' do
+  use_frameworks!
+
+    pod 'JCore' 
+pod 'JPush'
+
+end
+

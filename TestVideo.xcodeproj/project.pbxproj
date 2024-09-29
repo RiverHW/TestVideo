@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		049D0AF42C817201001C2ED2 /* testVideo.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = 049D0AF32C817201001C2ED2 /* testVideo.MP4 */; };
 		04A34BF42C8062F800611D64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A34BF32C8062F800611D64 /* AppDelegate.swift */; };
 		04A34BF62C8062F800611D64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A34BF52C8062F800611D64 /* SceneDelegate.swift */; };
 		04A34BF82C8062F800611D64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A34BF72C8062F800611D64 /* ViewController.swift */; };
@@ -16,6 +17,9 @@
 		04A34C0B2C8062FB00611D64 /* TestVideoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A34C0A2C8062FB00611D64 /* TestVideoTests.swift */; };
 		04A34C152C8062FB00611D64 /* TestVideoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A34C142C8062FB00611D64 /* TestVideoUITests.swift */; };
 		04A34C172C8062FB00611D64 /* TestVideoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A34C162C8062FB00611D64 /* TestVideoUITestsLaunchTests.swift */; };
+		04A34C252C806E8B00611D64 /* TestCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A34C232C806E8A00611D64 /* TestCollectionViewCell.swift */; };
+		04A34C262C806E8B00611D64 /* TestCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04A34C242C806E8A00611D64 /* TestCollectionViewCell.xib */; };
+		EA01694E4E90683E81FD88AD /* Pods_TestVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0065F38253FBFD7A3EFB6D67 /* Pods_TestVideo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0065F38253FBFD7A3EFB6D67 /* Pods_TestVideo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestVideo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		049D0AF32C817201001C2ED2 /* testVideo.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = testVideo.MP4; sourceTree = "<group>"; };
 		04A34BF02C8062F800611D64 /* TestVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A34BF32C8062F800611D64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		04A34BF52C8062F800611D64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +55,10 @@
 		04A34C102C8062FB00611D64 /* TestVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04A34C142C8062FB00611D64 /* TestVideoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVideoUITests.swift; sourceTree = "<group>"; };
 		04A34C162C8062FB00611D64 /* TestVideoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestVideoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		04A34C232C806E8A00611D64 /* TestCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCollectionViewCell.swift; sourceTree = "<group>"; };
+		04A34C242C806E8A00611D64 /* TestCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestCollectionViewCell.xib; sourceTree = "<group>"; };
+		BC3DEF7D2717CA8FC65C1A84 /* Pods-TestVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestVideo.release.xcconfig"; path = "Target Support Files/Pods-TestVideo/Pods-TestVideo.release.xcconfig"; sourceTree = "<group>"; };
+		F645D8EECF98EC17F1AFC5FC /* Pods-TestVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestVideo.debug.xcconfig"; path = "Target Support Files/Pods-TestVideo/Pods-TestVideo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA01694E4E90683E81FD88AD /* Pods_TestVideo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +94,8 @@
 				04A34C092C8062FB00611D64 /* TestVideoTests */,
 				04A34C132C8062FB00611D64 /* TestVideoUITests */,
 				04A34BF12C8062F800611D64 /* Products */,
+				DAE79723EF11A5CE4874706A /* Pods */,
+				A8E7A5CF10F1543F74F10DFC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -102,10 +115,13 @@
 				04A34BF32C8062F800611D64 /* AppDelegate.swift */,
 				04A34BF52C8062F800611D64 /* SceneDelegate.swift */,
 				04A34BF72C8062F800611D64 /* ViewController.swift */,
+				049D0AF32C817201001C2ED2 /* testVideo.MP4 */,
 				04A34BF92C8062F800611D64 /* Main.storyboard */,
 				04A34BFC2C8062FA00611D64 /* Assets.xcassets */,
 				04A34BFE2C8062FA00611D64 /* LaunchScreen.storyboard */,
 				04A34C012C8062FA00611D64 /* Info.plist */,
+				04A34C232C806E8A00611D64 /* TestCollectionViewCell.swift */,
+				04A34C242C806E8A00611D64 /* TestCollectionViewCell.xib */,
 			);
 			path = TestVideo;
 			sourceTree = "<group>";
@@ -127,6 +143,24 @@
 			path = TestVideoUITests;
 			sourceTree = "<group>";
 		};
+		A8E7A5CF10F1543F74F10DFC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0065F38253FBFD7A3EFB6D67 /* Pods_TestVideo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAE79723EF11A5CE4874706A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F645D8EECF98EC17F1AFC5FC /* Pods-TestVideo.debug.xcconfig */,
+				BC3DEF7D2717CA8FC65C1A84 /* Pods-TestVideo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +168,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04A34C1A2C8062FB00611D64 /* Build configuration list for PBXNativeTarget "TestVideo" */;
 			buildPhases = (
+				63ABBE7FC290535665645AA9 /* [CP] Check Pods Manifest.lock */,
 				04A34BEC2C8062F800611D64 /* Sources */,
 				04A34BED2C8062F800611D64 /* Frameworks */,
 				04A34BEE2C8062F800611D64 /* Resources */,
@@ -233,6 +268,8 @@
 			files = (
 				04A34BFD2C8062FA00611D64 /* Assets.xcassets in Resources */,
 				04A34C002C8062FA00611D64 /* Base in Resources */,
+				049D0AF42C817201001C2ED2 /* testVideo.MP4 in Resources */,
+				04A34C262C806E8B00611D64 /* TestCollectionViewCell.xib in Resources */,
 				04A34BFB2C8062F800611D64 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -253,6 +290,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		63ABBE7FC290535665645AA9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		04A34BEC2C8062F800611D64 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,6 +322,7 @@
 			files = (
 				04A34BF82C8062F800611D64 /* ViewController.swift in Sources */,
 				04A34BF42C8062F800611D64 /* AppDelegate.swift in Sources */,
+				04A34C252C806E8B00611D64 /* TestCollectionViewCell.swift in Sources */,
 				04A34BF62C8062F800611D64 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -437,11 +500,13 @@
 		};
 		04A34C1B2C8062FB00611D64 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F645D8EECF98EC17F1AFC5FC /* Pods-TestVideo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QD7BDRGYR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestVideo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -454,7 +519,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = langtu.TestVideo;
+				PRODUCT_BUNDLE_IDENTIFIER = langtu.LTNovelAppsss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -464,11 +529,13 @@
 		};
 		04A34C1C2C8062FB00611D64 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC3DEF7D2717CA8FC65C1A84 /* Pods-TestVideo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 5QD7BDRGYR;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = TestVideo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -481,7 +548,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = langtu.TestVideo;
+				PRODUCT_BUNDLE_IDENTIFIER = langtu.LTNovelAppsss;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
